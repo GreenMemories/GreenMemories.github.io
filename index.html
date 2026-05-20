@@ -4,8 +4,8 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Index</title>
-        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
-        <!--  <link rel="stylesheet" id="picostrap-styles-css" href="https://cdn.livecanvas.com/media/css/library/bundle.css" media="all"> -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+            <link rel="stylesheet" id="picostrap-styles-css" href="https://cdn.livecanvas.com/media/css/library/bundle.css" media="all">
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/gh/livecanvas-team/ninjabootstrap/dist/css/bootstrap.min.css"
@@ -22,14 +22,14 @@
                 alt="Banner principal" />
         </div>
         <section class="py-4">
-            <div class="container rounded-3 p-6" style="background-color: #89bd84">
+            <div class="container rounded-3 p-5" style="background-color: #89bd84">
                 <div class="row gx-5 align-items-center justify-content-between">
-                    <div class="col-md-5 order-3 order-md-2">
+                    <div class="col-md-7 order-3 order-md-2">
                         <div class="mt-3 mt-md-12">
                             <h2 class="display-5 fw-bold display-3 fw-bold" style="color: white !important">
                                 About Us
                             </h2>
-                            <p class="lead">
+                            <p class="lead" style="color: white; text-align: justify">
                                 Green Memories Events is an eco-friendly event planning agency that creates elegant and
                                 sustainable celebrations. The company offers personalized event services using
                                 biodegradable materials and environmentally responsible practices. Its goal is to
@@ -53,56 +53,93 @@
             <div class="container">
                 <div class="row justify-content-center text-center mb-3 mb-md-5">
                     <div class="col-lg-8 col-xxl-7">
-                        <h2 class="display-5 fw-bold display-3 fw-bold" style="color: #5c6c46 !important">
+                        <h2 class="display-5 fw-bold display-3 fw-bold" style="color: black !important">
                             Our Gallery
                         </h2>
                     </div>
                 </div>
                 <div class="row gy-4">
+                    <style>
+                        .gallery-img{
+                            width: 100%;
+                            height: 300px;
+                            object-fit: cover;
+                            border-radius: 8px;
+                            transition: transform 0.3s ease, box-shadow 0.3s ease;
+                        }
+                        .gallery-img:hover {
+                            transform: scale(1.04);
+                            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+                    </style>
+
                     <div class="col-md-3">
                         <img
                             alt=""
-                            width="414"
-                            height="518"
-                            class="img-fluid rounded-1"
+                            class="gallery-img rounded-1"
                             src="https://i1-e.pinimg.com/1200x/9f/42/fd/9f42fd8eda20132f59c8bf4581ab8cf4.jpg" />
                     </div>
                     <div class="col-md-3">
                         <img
                             alt=""
-                            width="414"
-                            height="518"
-                            class="img-fluid rounded-1"
+                            class="gallery-img rounded-1"
                             src="https://i1-e.pinimg.com/1200x/6f/02/63/6f02630e1b07921b9c6258f9c69bd8e5.jpg" />
                     </div>
                     <div class="col-md-3">
                         <img
                             alt=""
-                            width="414"
-                            height="400"
-                            class="img-fluid rounded-1"
+                            class="gallery-img rounded-1"
                             src="https://i.pinimg.com/webp/1200x/00/93/49/0093492f88570655274e45feed746cf4.webp" />
                     </div>
                     <div class="col-md-3">
                         <img
+                        alt=""
+                        class="gallery-img rounded-1"
+                        src="https://i.pinimg.com/736x/aa/4a/14/aa4a14a6c59127c0b00c5356e7032c52.jpg" />
+                    </div>
+                    <div class="col-md-3">
+                        <img
+                        alt=""
+                        class="gallery-img rounded-1"
+                        src="https://i.pinimg.com/736x/1c/5d/79/1c5d79bb0efc8e9398e4e84e2d24cf6f.jpg" />
+                    </div>
+                    <div class="col-md-3">
+                        <img
                             alt=""
-                            width="414"
-                            height="518"
-                            class="img-fluid rounded-1"
-                            src="https://i.pinimg.com/736x/1c/5d/79/1c5d79bb0efc8e9398e4e84e2d24cf6f.jpg" />
+                            class="gallery-img rounded-1"
+                            src="https://i.pinimg.com/736x/ac/d3/37/acd337132cc226d4b3cf45d17dd2466c.jpg" />
+                    </div>
+                    <div class="col-md-3">
+                        <img
+                            alt=""
+                            class="gallery-img rounded-1"
+                            src="https://i.pinimg.com/736x/05/af/06/05af065f66eff3001605a755bc480102.jpg" />
+                    </div>
+                    <div class="col-md-3">
+                        <img
+                            alt=""
+                            class="gallery-img rounded-1"
+                            src="https://i.pinimg.com/webp85/1200x/94/b1/ab/94b1ab3f090be751d02b489105f459e4.webp" />
                     </div>
                 </div>
             </div>
         </section>
-
+        
+        <style>
+            .testimonial-card {
+                background-color: #f8f9f4;
+                border-radius: 8px;
+                padding: 1.5rem;
+            }
+        </style>
+        
         <section class="py-5">
-            <div class="container">
+            <div class="container rounded-3 p-5" style="background-color: #89bd84">
                 <div class="row justify-content-center text-center mb-2 mb-lg-4">
                     <div class="col-12 col-lg-8 col-xxl-7 text-center mx-auto">
-                        <h2 class="display-5 fw-bold display-3 fw-bold" style="color: #5c6c46 !important">
+                        <h2 class="display-5 fw-bold display-3 fw-bold" style="color: white !important">
                             Our Testimonials
                         </h2>
-                        <p class="lead">
+                        <p class="lead" style="color: white">
                             Our users' reviews and testimonials are the heart of what we do. They help us improve every
                             day and inspire us to keep giving you the best. Thank you for trusting us!
                         </p>
@@ -113,11 +150,11 @@
                         <div class="d-flex align-items-start mb-4">
                             <img
                                 alt=""
-                                class="img-fluid rounded-circle me-3 shadow-lg p-4"
+                                class="img-fluid rounded-circle me-3 shadow"
                                 height="96"
                                 src="https://b2472105.smushcdn.com/2472105/wp-content/uploads/2022/11/Fotografia-de-Retrato-18-1920x1920.jpg?lossy=1&strip=1&webp=1"
                                 width="96" />
-                            <div class="bg-light p-3 p-md-4 shadow-lg p-4">
+                            <div class="testimonial-card shadow-sm">
                                 <div class="text-primary mb-1">
                                     <svg
                                         class="bi bi-quote"
@@ -130,7 +167,7 @@
                                             d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"></path>
                                     </svg>
                                 </div>
-                                <p class="lead">
+                                <p class="lead" style="text-align: justify">
                                     We hired Green Memories for a birthday celebration, and they exceeded all our
                                     expectations. Everything was incredibly well organized, and every detail was
                                     thoughtfully designed in a sustainable way, from the reusable decorations to the
@@ -144,7 +181,7 @@
                             </div>
                         </div>
                         <div class="d-flex align-items-start">
-                            <div class="bg-light p-3 p-md-4 shadow-lg p-4">
+                            <div class="testimonial-card shadow-sm">
                                 <div class="text-primary mb-1">
                                     <svg
                                         class="bi bi-quot"
@@ -157,7 +194,7 @@
                                             d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"></path>
                                     </svg>
                                 </div>
-                                <p class="lead">
+                                <p class="lead" style="text-align: justify">
                                     I absolutely loved my experience with Green Memories. I was looking for an elegant
                                     yet eco-friendly option for a family event, and they delivered exactly that. The
                                     team was kind, creative, and professional, and their sustainable ideas made the
@@ -171,15 +208,15 @@
                             </div>
                             <img
                                 alt=""
-                                class="img-fluid rounded-circle ms-3 shadow-lg p-4"
+                                class="img-fluid rounded-circle me-3 shadow"
                                 height="96"
                                 src="https://tse1.mm.bing.net/th/id/OIP.eTfoPIEg00cxvsMiE-YRqAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
                                 width="96" />
                         </div>
                     </div>
-                    <hr style="border: 2px solid black" />
                 </div>
             </div>
+            <hr style="border: 2px solid black" />
         </section>
         <footer>
             <div class="container">
@@ -223,7 +260,7 @@
                     </div>
                 </div>
 
-                <div class="container rounded-top-2" style="background-color: #de9a2b">
+                <div class="container rounded-top-2" style="background-color: #ba7300">
                     <div class="text-center py-3">
                         <a class="text-light" href="https://www.facebook.com/share/18oxzUrVrQ/?mibextid=wwXIfr"
                             ><svg
